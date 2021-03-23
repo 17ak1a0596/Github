@@ -26,4 +26,16 @@ Github:
 		=> ls => files in side by side
 	-> To know the status of files or folders then we need to use the command as 
 		=> git status
-	-> 
+	-> git remote add remotename "online repository url link"
+		=> git remote add remotename "url"
+	-> By Default it creates a remotename as "Origin" if we no add remotename
+	-> To Check the list of remotes we need to pass the command as 
+		=> git remote
+	-> To push the offline work to online we need to push it for online repository
+	-> git push remotename branchname
+	
+	** PUSH **
+	===========
+	Offline to Online repository for particular git users account 
+	-> If we encounters an erros as fast-forward then we use the command as 
+	=> git push -f remotename branchname
